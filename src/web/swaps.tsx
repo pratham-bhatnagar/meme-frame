@@ -57,7 +57,7 @@ export const Swaps = () => {
         </ul>
 
         <p>
-          Built by <a href="https://warpcast.com/greg">@greg</a>
+          Built by <a href="https://warpcast.com/pratham">@pratham</a>
         </p>
       </body>
     </html>

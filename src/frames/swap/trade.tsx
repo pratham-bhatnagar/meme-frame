@@ -1,6 +1,5 @@
 import { Button, TextInput } from 'frog'
 import { Address, parseAbi } from 'viem'
-
 import { backgroundStyles, warningStyles, titleStyles } from './styles'
 import { CustomFrameContext } from '.'
 import { baseClient, optimismClient } from '../viem'
@@ -30,7 +29,6 @@ export const tradeScreen = async (c: CustomFrameContext) => {
     image: (
       <div style={backgroundStyles}>
         <span style={titleStyles}>APE in ${symbol} 📈</span>
-
         <span style={warningStyles}>
           go full degen this bull run
         </span>

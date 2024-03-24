@@ -13,15 +13,13 @@ export const Home = () => {
         />
       </head>
 
-      <body style={{ lineHeight: 1.25, padding: '1rem' }}>
+      <body style={{ lineHeight: 1.25, padding: "1rem" }}>
         <h1>Coin Shiller</h1>
-
-      
 
         <p>
           Built by <a href="https://warpcast.com/pratham">@pratham</a>
         </p>
       </body>
     </html>
-  )
-}
+  );
+};

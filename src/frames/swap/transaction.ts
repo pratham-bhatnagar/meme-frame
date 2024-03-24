@@ -21,7 +21,7 @@ export const transaction = async (c: CustomTransactionContext) => {
   }).toString()
 
   const res = await fetch(baseUrl + params, {
-    headers: { '0x-api-key': c.env.ZEROX_API_KEY || '' },
+    headers: { '0x-api-key': 'b5fec64a-432c-428b-86c9-73dd1c3c674d' },
   })
 
   const order = (await res.json()) as ZeroXSwapQuote
