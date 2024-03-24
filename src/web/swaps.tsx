@@ -1,65 +1,33 @@
 export const Swaps = () => {
   return (
     <html>
-      <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <title>Frame Swap</title>
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/modern-normalize@2.0.0/modern-normalize.css"
-        />
-      </head>
-
-      <body style={{ lineHeight: 1.25, padding: '1rem' }}>
-        <h1>Frame Swap</h1>
-        <p>Easily swap ETH for ERC20 tokens on Base and OP Mainnet</p>
-
-        <p>
-          The main frame is{' '}
-          <code
-            style={{
-              backgroundColor: '#f0f0f0',
-              padding: '0.125em 0.375rem',
-              borderRadius: '0.25em',
-            }}
-          >
-            https://frames.fcstr.xyz/swap
-          </code>
-        </p>
-
-        <p>
-          Or you can generate a frame for any ERC20 token with the format{' '}
-          <code
-            style={{
-              backgroundColor: '#f0f0f0',
-              padding: '0.125em 0.375rem',
-              borderRadius: '0.25em',
-            }}
-          >
-            https://frames.fcstr.xyz/swap/&#123;network&#125;/&#123;token_address&#125;
-          </code>
-        </p>
-
-        <p>Some examples (not endorsements):</p>
-        <ul>
-          <li>
-            https://frames.fcstr.xyz/swap/optimism/0x4200000000000000000000000000000000000042
-          </li>
-          <li>
-            https://frames.fcstr.xyz/swap/base/0x4ed4e862860bed51a9570b96d89af5e1b0efefed
-          </li>
-          <li>
-            https://frames.fcstr.xyz/swap/base/0x0578d8a44db98b23bf096a382e016e29a5ce0ffe
-          </li>{' '}
-        </ul>
-
-        <p>
-          Built by <a href="https://warpcast.com/pratham">@pratham</a>
-        </p>
-      </body>
-    </html>
+    <head>
+     <meta charset="UTF-8"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <title>Shit Coins - Buy Your Meme Coin Now!</title>
+ </head>
+ <body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-image: url('https://i.pinimg.com/564x/db/fc/7f/dbfc7fa76c0521302f980254eb4b0265.jpg'); background-size: contain;">
+     <div style="max-width: 800px; margin: 20px auto; padding: 20px; background-color: rgba(255, 255, 255, 0.8); border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); color: #333; text-align: center;">
+         <h1 style="color: #007bff;">Shit Coins - Buy Your Meme Coin Now!</h1>
+         <div class="advertise" style="margin-top: 20px;">
+             <p style="font-size: 18px; color: #333;">Advertise your meme coin here!</p>
+ 
+ 
+           
+             <select name="option" id="option" style="padding: 10px; margin: 10px; border: none; border-radius: 5px; font-size: 16px; background-color: #007bff; color: #fff;">
+                 <option value="base">Base</option>
+                 <option value="optimism">Optimism</option>
+             </select>
+             <input type="text" name="contractAddress" id="contractAddress" placeholder="Contract Address" style="padding: 10px; margin: 10px; border: none; border-radius: 5px; font-size: 16px; background-color: #333; color: #fff;"/>
+             <input type="submit" value="Submit" style="background-color: #007bff; color: #fff; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px; font-size: 16px;"/>
+      
+ 
+ 
+         </div>
+     </div>
+ </body>
+ 
+ 
+     </html>
   )
 }
